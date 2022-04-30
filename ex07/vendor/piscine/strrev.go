@@ -13,7 +13,7 @@ func StrRev(s string) string {
 	rune_str := []rune(s)
 	rev_str := ""
 
-	for i := StrLen(s) - 1; i > 0; i--{
+	for i := StrLen(s) - 1; i >= 0; i--{
 		rev_str += string(rune_str[i])
 	}
 	return rev_str
