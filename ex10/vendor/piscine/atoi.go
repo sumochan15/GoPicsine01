@@ -17,3 +17,6 @@ func Atoi(s string) int {
 	}
 	return sum * sign
 }
+
+//int minの時にオーバーフローの可能性あり。
+//符号を逆にするかマイナスはマイナスのまま処理する必要がある
